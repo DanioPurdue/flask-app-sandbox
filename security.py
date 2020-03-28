@@ -4,7 +4,7 @@ users = [
     User(1, 'bob', 'asdf')
 ]
 
-username_mapping = {u.useranme: u for u in users}
+username_mapping = {u.username: u for u in users}
 
 userid_mapping = { 1: {
         'id':1,
